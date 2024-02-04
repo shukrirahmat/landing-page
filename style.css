@@ -9,12 +9,10 @@ body {
 }
 
 .one, .two {
-    flex: 4;
     min-height: 400px;
 }
 
 .three, .four {
-    flex: 3;
     min-height: 300px;
 }
 
@@ -71,11 +69,11 @@ button {
 .hero, .img {
     height: 240px;
     flex: 1;
-    margin-top: 32px;
+    margin-top: 48px;
 }
 
 .img {
-    background-color: #e5e7eb7e;
+    background-color: #e5e7eb4b;
     display: flex;
     justify-content: center;
     align-items: center;
