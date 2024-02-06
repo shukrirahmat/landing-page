@@ -1,19 +1,13 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
-}
-
-.header, .footer , .panel{
-    padding: 0px 200px 0px 200px;
     font-size: 18px;
 }
 
-.one, .two {
-    min-height: 400px;
-}
-
-.three, .four {
-    min-height: 300px;
+.header, .footer, .panel {
+    min-width: 800px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .header, .footer , .one{
@@ -34,8 +28,8 @@ body {
     display: flex;
     list-style-type: none;
     margin: 0;
-    padding: 24px 0;
     gap: 18px;
+    padding-top: 24px;
 }
 
 a {
@@ -46,14 +40,14 @@ a {
 .logo {
     font-size: 24px;
     color: #F9FAF8;
-    padding: 16px 0;
-    font-weight: 950;
+    font-weight: 910;
+    padding-top: 16px;
 }
 
-.hero .title{
+.hero .title {
     font-size: 48px;
     color: #F9FAF8;
-    font-weight: 950;    
+    font-weight: 910;    
 }
 
 button {
@@ -69,7 +63,6 @@ button {
 .hero, .img {
     height: 240px;
     flex: 1;
-    margin-top: 48px;
 }
 
 .img {
@@ -89,4 +82,48 @@ button {
 .one {
     display: flex;
     gap: 16px;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+.two .title {
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: 910;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+.two ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 48px;
+}
+
+.two li {
+    text-align: center;
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#1F2937;
+    gap:8px;
+}
+
+.rounded {
+    height: 150px;
+    width: 150px;
+    border: #3882F6;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 8px;
 }
